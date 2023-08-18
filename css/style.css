@@ -1,0 +1,115 @@
+
+
+a {
+    font-size:xx-large;
+    font-family:"Poppins";
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    position:absolute;
+    padding: 1%;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.profilepic {
+   height: 500px
+}
+
+.navbar {
+    background-color: #4fa39c;
+    padding-left: 150px;
+    padding-top: 50px;
+    height: 90px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    color: lightgray;
+}
+
+.heroImg {
+    height: 650px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+.display:inline-block {
+    vertical-align: top;
+}
+
+.MyUXSkills { 
+    grid-area: "MyUXSkills";
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 33%;
+    background-color: #4fa39c;
+    font-family: "Poppins";
+    box-sizing:border-box;
+    margin: 20px auto;
+    padding: 50px; 
+    max-width: 1200px;
+    gap: 20px;
+    box-sizing: border-box;
+    }
+   
+
+  .MyWork {
+    grid-area: "MyWork" }
+   
+    .grid-container{ 
+    display: grid;
+    justify-content: space-evenly; 
+    row-gap: 50px; 
+    }
+
+  .button {
+    background-color: #FBB786; /* light oragne */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+  }
+
+  @media only screen and (max-width: 600px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .flexContainer > div{
+        width: 100%;
+    }
+    .workGrid{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: ".workGrid > div:nth-child(1)" ".workGrid > div:nth-child(2)" ".workGrid > div:nth-child(3)" ".workGrid > div:nth-child(4)"
+    }
+}
