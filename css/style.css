@@ -31,13 +31,14 @@ a {
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: right 40px;
     display: flex;
+    float: right;
 }
 
 .navbar li {
     margin-right: 20px;
-
+    
 }
 
 .navbar a {
@@ -53,11 +54,16 @@ a {
 .heroImg {
     height: 650px;
     padding: 25px;
+    border-radius: 50%;
+    float: inherit;
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    font-family: serif;
+    font-size: large;
+    
 }
 .display:inline-block {
     vertical-align: top;
@@ -75,7 +81,8 @@ a {
     padding: 50px; 
     max-width: 1200px;
     gap: 20px;
-    box-sizing: border-box;
+    width: 1020px;
+    height: 250px;
     }
    
 
@@ -83,12 +90,12 @@ a {
     grid-area: "MyWork" }
    
     .grid-container{ 
-    display: grid;
-    justify-content: space-evenly; 
+    display: flex;
+    justify-content:space-around; 
     row-gap: 50px; 
     }
-
-  .button {
+    
+  button {
     background-color: #FBB786; /* light oragne */
     border: none;
     padding: 15px 32px;
@@ -96,6 +103,7 @@ a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px; 
+    border-radius: 16px;
   }
 
   @media only screen and (max-width: 600px){
