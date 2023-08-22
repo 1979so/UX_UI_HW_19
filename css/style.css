@@ -18,7 +18,28 @@ a {
     display: flex;
     min-width: 170px;
     min-height: 93.45px;
+    transition: opacity 0.3s ease-in-out;
 }
+
+.navbar-home {
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.hoverbutton{
+    On default=navbar-home 
+    visibility: turn on 
+    icon visbility: turn off
+  }
+  
+  .hoverbutton:hover{
+    On hover=logo 
+    visbility: turn off
+    icon visibility:turn on
+  }
 
 .profilepic {
    height: 500px

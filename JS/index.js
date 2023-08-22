@@ -1,10 +1,10 @@
 console.log("Your index.js file is loaded correctly!");
 
-// $("logo-home-gif").click(function(){
+// $("Logo").click(function(){
 //     $(this).fadeToggle("slow", 0.5);
 // })
 
-// $("Logo").on("mouseenter", function(){
+// $("navbar-home").on("mouseenter", function(){
 //     $(this).fadeIn("slow", 0.5); // Fade in on mouse enter
 // });
 
@@ -30,3 +30,14 @@ $(document).ready(function(){
   });
 });
   
+
+function mouseOver() {
+  document.getElementById("logo").src =
+    "../images/Logo.png";
+  document.getElementById("logo").style.width = "40px";
+}
+
+function mouseOut() {
+  document.getElementById("logo").src = "../images/Logo.png";
+  document.getElementById("logo").style.width = "70px";
+}
