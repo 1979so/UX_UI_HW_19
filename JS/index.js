@@ -21,14 +21,6 @@ console.log("Your index.js file is loaded correctly!");
 //     }
 //   );
 
-
-$(document).ready(function(){
-  $("Logo").hover(function(){
-    $(this).fadeTo("fast", 0.5);
-  }, function(){
-    $(this).fadeTo("fast", 1);
-  });
-});
   
 
 function mouseOver() {
@@ -41,3 +33,4 @@ function mouseOut() {
   document.getElementById("logo").src = "../images/Logo.png";
   document.getElementById("logo").style.width = "70px";
 }
+
