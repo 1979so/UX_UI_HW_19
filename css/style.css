@@ -82,6 +82,12 @@ a {
     vertical-align: top;
 }
 
+.h4{
+    font-size: x-large;
+    font-family: serif;
+    
+}
+
 .MyUXSkills { 
     grid-area: "MyUXSkills";
     display: flex;
