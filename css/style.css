@@ -71,6 +71,11 @@ a {
     float: inherit;
 }
 
+.profilepic{
+    height: 450px;
+    width: 450px;
+}
+
 .content {
     width: 500px;
     margin: 0 auto;
@@ -78,15 +83,19 @@ a {
     font-size: large;
     
 }
+
+
 .display:inline-block {
     vertical-align: top;
 }
 
-.h4{
-    font-size: x-large;
+.MyUXSkills{
+ 
+    font-size: large;
     font-family: serif;
-    
+    text-align: center;
 }
+
 
 .MyUXSkills { 
     grid-area: "MyUXSkills";
@@ -101,19 +110,30 @@ a {
     max-width: 1200px;
     gap: 20px;
     width: 1020px;
-    height: 250px;
+    height: 300px;
     border-radius: 16px;
     }
    
 
   .MyWork {
-    grid-area: "MyWork" }
-   
+    grid-area: "MyWork" 
+}
+
     .grid-container{ 
     display: flex;
-    justify-content:space-around; 
-    row-gap: 50px; 
+    justify-content: space-around; 
+    row-gap: 200px; 
+    padding: 50px;
+    
     }
+   
+  
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
     
   button {
     background-color: #FBB786; /* light oragne */
@@ -121,16 +141,33 @@ a {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px; 
     border-radius: 16px;
-    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
   }
 
   button:hover{
     background-color: #4fa39c;
     color: white
+    
   }
+h4{
+    text-align: center;
+    font-size: x-large;
+}
+p{ text-align: center;
+font-size: large;
+font-family: "Poppins"
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+}
+
    
 
   @media only screen and (max-width: 600px){
